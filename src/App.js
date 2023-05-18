@@ -14,8 +14,9 @@ function App() {
         <Routes>
           <Route path="/" element={<div>dupa</div>} />
           <Route path="/home" element={<Home />} />
-          {/* <Route path="/" element={<LoginForm />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
+          <Route path="/us" element={<Us />} />
+          <Route path="/fundation" element={<Fundation />} /> 
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </HashRouter>
