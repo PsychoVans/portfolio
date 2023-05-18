@@ -8,16 +8,19 @@ const Navbar = () => {
         <div className="navbar-brand">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="/">Start</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/about">O co chodzi?</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/us">O nas</a>
             </li>
             <li>
-              <a href="/toapp">ToApp</a>
+              <a href="/fundation">Fundacja i organizacje</a>
+            </li>
+            <li>
+              <a href="/contact">Kontakt</a>
             </li>
           </ul>
         </div>
