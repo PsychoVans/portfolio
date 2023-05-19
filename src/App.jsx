@@ -1,15 +1,15 @@
 import "reset-css";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Home from "./components/home";
-import zdjecieHome from "./images/Home-Hero-Image.jpg";
+import Navigation from "./components/Navigation/navigation";
+import Home from "./components/Start/Dashboard";
+import zdjecieHome from "./assets/Home-Hero-Image.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
       <HashRouter>
-        <Navbar />
+        <Navigation />
         <img src={zdjecieHome} alt="Moje zdjęcie" />
         <Routes>
           <Route path="/" element={<div>dupa</div>} />
